@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 
 const Card = ({icon, title, description}) => {
   return (
-    <div className='flex flex-col items-center shadow-xl p-5 gap-6 cursor-pointer rounded-2xl hover:scale-105 transition-all duration-300 bg-white'>
+    <div className='flex flex-col items-center shadow-xl p-5 gap-6 cursor-pointer rounded-2xl hover:scale-105 transition-all duration-300 bg-white max-w-[330px]'>
         <div className="icon">
             <img src={icon} alt="icon" className='size-20 object-cover' />
         </div>

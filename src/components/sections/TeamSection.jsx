@@ -3,7 +3,7 @@ import TeamCard from '../Cards/TeamCard';
 
 const TeamSection = () => {
   return (
-    <section className="h-[100vh] flex flex-col bg-slate-50 pt-10">
+    <section className="xl:h-[100vh] flex flex-col bg-slate-50 pt-10">
       <div className="title flex justify-center flex-col items-center">
         <h2 className="text-neutral-400 uppercase tracking-widest">
           Our team
@@ -12,7 +12,7 @@ const TeamSection = () => {
           meet the team
         </p>
       </div>
-      <div className="wrapper flex justify-center gap-4 pt-12">
+      <div className="wrapper flex justify-center gap-4 md:pt-12 items-center flex-col p-5 md:flex-row">
         <TeamCard/>
         <TeamCard/>
         <TeamCard/>
