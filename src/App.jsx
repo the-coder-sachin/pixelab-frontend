@@ -5,6 +5,7 @@ import Services from './components/sections/Services'
 import Section3 from './components/sections/Section3'
 import Tesimonials from './components/sections/Tesimonials'
 import TeamSection from './components/sections/TeamSection'
+import SubscribeSection from './components/sections/SubscribeSection'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Section3/>
     <Tesimonials/>
     <TeamSection/>
+    <SubscribeSection/>
     </>
   )
 }

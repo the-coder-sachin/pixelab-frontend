@@ -8,6 +8,7 @@ import dp from './dp.jpg'
 import facebook from './facebook.png'
 import instagram from './instagram.png'
 import twitter from './twitter.png'
+import mailBg from './mail-bg.png'
 
 export {
     logo,
@@ -20,4 +21,5 @@ export {
     facebook,
     instagram,
     twitter,
+    mailBg,
 }
