@@ -4,6 +4,7 @@ import imageIcon from './image-icon.png'
 import cameraIcon from './video-camera-icon.png'
 import diagramIcon from './diagram-icon.png'
 import sec3 from './sec-3.jpg'
+import dp from './dp.jpg'
 
 export {
     logo,
@@ -11,5 +12,6 @@ export {
     imageIcon,
     cameraIcon,
     diagramIcon,
-    sec3
+    sec3,
+    dp
 }

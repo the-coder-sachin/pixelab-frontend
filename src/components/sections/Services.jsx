@@ -4,7 +4,7 @@ import { cameraIcon, diagramIcon, imageIcon } from '../../assets/assets'
 
 const Services = () => {
   return (
-    <section className='h-[100vh] flex flex-col bg-slate-50'>
+    <section className='h-[100vh] flex flex-col bg-slate-50 pt-16'>
       <div className="title flex justify-center flex-col items-center">
         <h2 className="text-neutral-400 uppercase tracking-widest">service</h2>
         <p className="capitalize text-4xl font-semibold">
