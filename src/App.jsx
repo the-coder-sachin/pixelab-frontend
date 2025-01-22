@@ -4,6 +4,7 @@ import HeroSection from './components/sections/HeroSection'
 import Services from './components/sections/Services'
 import Section3 from './components/sections/Section3'
 import Tesimonials from './components/sections/Tesimonials'
+import TeamSection from './components/sections/TeamSection'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <Services/>
     <Section3/>
     <Tesimonials/>
+    <TeamSection/>
     </>
   )
 }

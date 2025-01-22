@@ -5,6 +5,9 @@ import cameraIcon from './video-camera-icon.png'
 import diagramIcon from './diagram-icon.png'
 import sec3 from './sec-3.jpg'
 import dp from './dp.jpg'
+import facebook from './facebook.png'
+import instagram from './instagram.png'
+import twitter from './twitter.png'
 
 export {
     logo,
@@ -13,5 +16,8 @@ export {
     cameraIcon,
     diagramIcon,
     sec3,
-    dp
+    dp,
+    facebook,
+    instagram,
+    twitter,
 }
