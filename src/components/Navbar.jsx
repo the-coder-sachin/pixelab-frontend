@@ -1,5 +1,6 @@
 import React from 'react'
 import { logo } from '../assets/assets'
+import Button from './Button/Button'
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
         </ul>
         <div className="login-signup flex gap-4">
             <button className='font-semibold text-neutral-700 hover:text-orange-500'>Log in</button>
-            <button className='py-2 px-4 text-white rounded-md bg-orange-500 hover:bg-orange-600'>Sign up</button>
+            <Button>Sign up</Button>
         </div>
         </div>
     </nav>
