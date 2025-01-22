@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
     <nav>
         <div className="flex items-center justify-between p-5 pr-12">
-            <div className="logo">
+            <div className="logo cursor-pointer">
                 <img src={logo} alt="logo"
                 className='h-[56px]'
                 />
